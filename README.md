@@ -14,4 +14,4 @@ O repositório abrange diversas tecnologias e linguagens de programação, inclu
 
 - HTML, CSS e JavaScript
 - Java
-- SQL
+- MySQL
