@@ -1,6 +1,123 @@
-/desktop development/AULA01/target/
-/desktop development/AULA02/target/
-/desktop development/AULA03/target/
-/desktop development/AULA04/target/
-/desktop development/ConversorBase/target/
-/desktop development/AULA05/target/
+# ===========================
+# Java
+# ===========================
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+*.log
+hs_err_pid*
+*.jfr
+*.hprof
+
+# ===========================
+# Maven
+# ===========================
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+.mvn/
+mvnw
+mvnw.cmd
+
+# ===========================
+# Gradle
+# ===========================
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# ===========================
+# IDEs
+# ===========================
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ===========================
+# Node.js / JavaScript
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.yarn/
+package-lock.json
+yarn.lock
+
+# ===========================
+# React / Build
+# ===========================
+build/
+dist/
+.cache/
+.parcel-cache/
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# ===========================
+# Database
+# ===========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================
+# Dependências Externas
+# ===========================
+mysql-connector*/
+lib/
+libs/
+
+# ===========================
+# Arquivos Temporários
+# ===========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# ===========================
+# Sistema Operacional
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Logs e Relatórios
+# ===========================
+*.log
+logs/
